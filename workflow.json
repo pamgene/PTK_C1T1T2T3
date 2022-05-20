@@ -3,7 +3,7 @@
   "id": "d436bf78d01fb512eabcb44cf36cbd4d",
   "isDeleted": false,
   "rev": "66-6fd716003b50974de450b941baaa8879",
-  "description": "A basic PTK workflow",
+  "description": "PTK workflow with one control and three treatments",
   "name": "PTK_C1T1T2T3",
   "createdBy": "plinders",
   "acl": {
