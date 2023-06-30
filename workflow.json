@@ -4,11 +4,11 @@
   "isDeleted": false,
   "rev": "28-db528f68fe6844c347877b8cbed9228b",
   "description": "PTK workflow with one control and three treatments",
-  "name": "PTK-CT1T2T3",
+  "name": "PTK-CT1T2T3_template",
   "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "Test_NewTemplates",
+    "owner": "dschuller",
     "aces": []
   },
   "createdDate": {
@@ -22,7 +22,7 @@
   "urls": [
     {
       "kind": "Url",
-      "uri": "https://github.com/tercen/PTK_basic_template"
+      "uri": "https://github.com/pamgene/PTK_C1T1T2T3_template"
     }
   ],
   "tags": [],
