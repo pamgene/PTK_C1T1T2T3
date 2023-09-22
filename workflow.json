@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "8363045522f1caa2268138b6ba8db4a2",
   "isDeleted": false,
-  "rev": "4-a55b509fe778579b10c33443ff78596e",
+  "rev": "6-4bdd0792c3e0c7a40708ed40750962a2",
   "description": "PTK workflow with one control and three treatments",
   "name": "PTK-CT1T2T3_template",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-09-15T11:20:43.962019Z"
+    "value": "2023-09-22T07:23:50.461927Z"
   },
   "urls": [
     {
@@ -18728,8 +18728,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1364.866580505371,
-          "y": 1027.5
+          "x": 1591.866580505371,
+          "y": 1001.5
         }
       },
       "state": {
@@ -19409,8 +19409,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 2900.2186590576175,
-          "y": 975.5
+          "x": 3171.2186590576175,
+          "y": 989.5
         }
       },
       "state": {
@@ -25271,8 +25271,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 1343.826526184082,
-        "y": 1163.5
+        "x": 1574.826526184082,
+        "y": 1158.5
       }
     },
     {
@@ -25318,8 +25318,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 1343.826526184082,
-        "y": 1100.5
+        "x": 1574.826526184082,
+        "y": 1095.5
       }
     },
     {
@@ -26207,8 +26207,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1303.3315261840821,
-          "y": 1108.5
+          "x": 1534.3315261840821,
+          "y": 1103.5
         }
       },
       "state": {
@@ -29823,8 +29823,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 2908.8335757446293,
-        "y": 1135.5
+        "x": 3142.8335757446293,
+        "y": 1140.5
       }
     },
     {
@@ -29870,8 +29870,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 2908.8335757446293,
-        "y": 1072.5
+        "x": 3142.8335757446293,
+        "y": 1077.5
       }
     },
     {
@@ -30767,8 +30767,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 2857.6836047363286,
-          "y": 1080.5
+          "x": 3091.6836047363286,
+          "y": 1085.5
         }
       },
       "state": {
@@ -37747,8 +37747,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1599.866580505371,
-          "y": 1020.5
+          "x": 1347.866580505371,
+          "y": 1008.5
         }
       },
       "state": {
@@ -38139,8 +38139,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 1718.826526184082,
-        "y": 1102.5
+        "x": 1442.826526184082,
+        "y": 1095.5
       }
     },
     {
@@ -38482,7 +38482,7 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "UKA_06",
+        "namespace": "UKA_05",
         "description": "Find kinase activity changes from differential peptide phosphorylation",
         "appDesignType": "uka_c06_2group_control_ID",
         "factors": [
@@ -38626,7 +38626,7 @@
       "kind": "GroupStep",
       "id": "db92a1b0-53b5-11ee-bfcc-33dac613cc2f",
       "groupId": "",
-      "name": "UKA_06",
+      "name": "UKA_05",
       "inputs": [],
       "outputs": [],
       "rectangle": {
@@ -38638,8 +38638,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1678.3315261840821,
-          "y": 1110.5
+          "x": 1402.3315261840821,
+          "y": 1103.5
         }
       },
       "state": {
@@ -38736,8 +38736,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 1455.826526184082,
-        "y": 1105.5
+        "x": 1693.826526184082,
+        "y": 1099.5
       }
     },
     {
@@ -39079,7 +39079,7 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "UKA_05",
+        "namespace": "UKA_06",
         "description": "Find kinase activity changes from differential peptide phosphorylation",
         "appDesignType": "uka_c06_2group_control_ID",
         "factors": [
@@ -39223,7 +39223,7 @@
       "kind": "GroupStep",
       "id": "eabd13f0-53b5-11ee-b5f8-2367c4fc68d1",
       "groupId": "",
-      "name": "UKA_05",
+      "name": "UKA_06",
       "inputs": [],
       "outputs": [],
       "rectangle": {
@@ -39235,8 +39235,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1415.3315261840821,
-          "y": 1113.5
+          "x": 1653.3315261840821,
+          "y": 1107.5
         }
       },
       "state": {
@@ -42959,8 +42959,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 1597.826526184082,
-        "y": 1163.5
+        "x": 1329.826526184082,
+        "y": 1157.5
       }
     },
     {
@@ -43006,8 +43006,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 1597.826526184082,
-        "y": 1100.5
+        "x": 1329.826526184082,
+        "y": 1094.5
       }
     },
     {
@@ -43903,8 +43903,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1557.3315261840821,
-          "y": 1108.5
+          "x": 1289.3315261840821,
+          "y": 1102.5
         }
       },
       "state": {
@@ -46389,8 +46389,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 3048.1786047363285,
-        "y": 1068.5
+        "x": 3272.1786047363285,
+        "y": 1072.5
       }
     },
     {
@@ -46602,7 +46602,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 6
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -46679,7 +46679,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 173
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -46732,7 +46732,7 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "UKA_11",
+        "namespace": "UKA_12",
         "description": "Find kinase activity changes from differential peptide phosphorylation",
         "appDesignType": "uka_c06_2group_control_ID",
         "factors": [
@@ -46876,7 +46876,7 @@
       "kind": "GroupStep",
       "id": "8abfaf50-53b8-11ee-b42d-a3fa851549eb",
       "groupId": "",
-      "name": "UKA_11",
+      "name": "UKA_12",
       "inputs": [],
       "outputs": [],
       "rectangle": {
@@ -46888,8 +46888,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 3007.6836047363286,
-          "y": 1076.5
+          "x": 3231.6836047363286,
+          "y": 1080.5
         }
       },
       "state": {
@@ -46938,8 +46938,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 3178.2186590576175,
-          "y": 978.5
+          "x": 2900.2186590576175,
+          "y": 974.5
         }
       },
       "state": {
@@ -47309,8 +47309,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 3320.1786047363285,
-        "y": 1073.5
+        "x": 3011.1786047363285,
+        "y": 1075.5
       }
     },
     {
@@ -47652,7 +47652,7 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "UKA_12",
+        "namespace": "UKA_11",
         "description": "Find kinase activity changes from differential peptide phosphorylation",
         "appDesignType": "uka_c06_2group_control_ID",
         "factors": [
@@ -47796,7 +47796,7 @@
       "kind": "GroupStep",
       "id": "a713e1d0-53b8-11ee-9646-3de6081e97a1",
       "groupId": "",
-      "name": "UKA_12",
+      "name": "UKA_11",
       "inputs": [],
       "outputs": [],
       "rectangle": {
@@ -47808,8 +47808,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 3279.6836047363286,
-          "y": 1081.5
+          "x": 2970.6836047363286,
+          "y": 1083.5
         }
       },
       "state": {
@@ -49144,8 +49144,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 3181.8335757446293,
-        "y": 1132.5
+        "x": 2884.8335757446293,
+        "y": 1135.5
       }
     },
     {
@@ -49191,8 +49191,8 @@
       },
       "groupPortPosition": {
         "kind": "Point",
-        "x": 3181.8335757446293,
-        "y": 1069.5
+        "x": 2884.8335757446293,
+        "y": 1072.5
       }
     },
     {
@@ -50088,8 +50088,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 3130.6836047363286,
-          "y": 1077.5
+          "x": 2833.6836047363286,
+          "y": 1080.5
         }
       },
       "state": {
@@ -50503,7 +50503,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -270.0,
-    "y": 319.0
+    "x": -221.0,
+    "y": 202.0
   }
 }
