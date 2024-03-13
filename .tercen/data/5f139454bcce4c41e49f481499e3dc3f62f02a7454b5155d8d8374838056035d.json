@@ -1,0 +1,226 @@
+{
+ "kind": "TableSchema",
+ "id": "5f139454bcce4c41e49f481499e3dc3f62f02a7454b5155d8d8374838056035d",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "IA_PTK_afterwash_export_03_04_06.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "5f139454bcce4c41e49f481499e3dc3f62f02a7454b5155d8d8374838056035d"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 12240,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "eea6b8c7-a66b-4d2d-bbaf-93a486a0b69d",
+   "name": "ds0.Instrument Unit",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1186f24a-cacf-4403-983a-9ddbd67295e3",
+   "name": "ds0.RunId",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "67d931e8-6b67-4378-9304-52d2b4d78ffc",
+   "name": "ds0.Barcode",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1ee9cd2a-f592-4aa3-a933-ef1ae5f7f156",
+   "name": "ds0.Row",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "791fd221-f7e1-43f6-970f-a0da650b4c0b",
+   "name": "ds2..spotCol",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3c42bfd8-783a-4fc7-9979-b6175012fdad",
+   "name": "ds2..spotRow",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ad86e273-4b52-44f6-9082-1e7615161531",
+   "name": "ds0.Exposure Time",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "aab0d4ed-48c3-42bc-bedb-534cd54e9135",
+   "name": "ds0.Cycle",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7c11af06-f27e-4ec1-b23e-959e7b879fb0",
+   "name": "ds1.ID",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7f3aebdc-a5bd-417b-8d77-7ddcfc09dd66",
+   "name": "js0.UniprotAccession",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a2b7c206-4183-420f-85cc-9a3b23a9b7aa",
+   "name": "ds3.Median_SigmBg",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c5a716a8-b1e3-45fe-a28f-e5ec30ee21ae",
+   "name": "ds3.Signal_Saturation",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/5f/13/5f139454bcce4c41e49f481499e3dc3f62f02a7454b5155d8d8374838056035d",
+ "relation": {
+  "kind": "Relation",
+  "id": "fa2e8045-6fdf-4294-9253-fcc32b60bd62"
+ }
+}

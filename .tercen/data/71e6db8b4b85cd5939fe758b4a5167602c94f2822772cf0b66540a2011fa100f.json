@@ -1,0 +1,439 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "71e6db8b4b85cd5939fe758b4a5167602c94f2822772cf0b66540a2011fa100f",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "297d4b30-1ee3-1efb-9b49-393130b27cc0",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "71e6db8b4b85cd5939fe758b4a5167602c94f2822772cf0b66540a2011fa100f"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 33096,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "b48014fe-88ee-4f1a-a68c-35b1c729f04c",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "42bd0132-7b08-41fd-83aa-a318dd0c3508",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a2b8d454-0af5-4699-b408-782cf30a8ea1",
+   "name": "ETS.ds0.slope",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "7e16aa4d-f3c4-49cf-a799-c1c935e44885",
+   "name": "ETS.ds0.intercept",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "96158078-75ba-4c2a-b64c-355aa8907e6f",
+   "name": "ETS.ds0.R2",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9c1eb1cf-61f1-4fd7-970f-e7ee3de84210",
+   "name": "ETS.ds0.nPoints",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d9ddc729-13bf-4f3a-a86b-62d3722956b6",
+   "name": "ETS.ds0.Result",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "0915e11f-10b1-4f61-aac7-fa1ce675eb22",
+   "name": "ETS.ds0.fractionPresent",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/71/e6/71e6db8b4b85cd5939fe758b4a5167602c94f2822772cf0b66540a2011fa100f",
+ "relation": {
+  "kind": "Relation",
+  "id": "f99c4578-4000-4ce3-8c23-8880d28e1a62"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "68126cf2-c7bb-4a9b-a04e-5a7934f001f8",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "r.o.f",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "ds0.Barcode",
+       "ds0.Row"
+      ],
+      "rColumns": [
+       "js0.Barcode",
+       "js0.Row"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "7d99625b-df53-48d2-be59-8e168a973a01",
+      "relation": {
+       "kind": "RenameRelation",
+       "id": "7ee00b54-28e5-46d2-b42d-ef5c9c572b40",
+       "relation": {
+        "kind": "SimpleRelation",
+        "id": "235913c749bd6f527dfc9cbacaf897a6dab641dc1899cf0b06b4b6d8ce35f086",
+        "index": 2
+       },
+       "inNames": [
+        "Barcode",
+        "Row",
+        "Sample name",
+        "Supergroup",
+        "Test Condition",
+        "Replicate",
+        "235913c749bd6f527dfc9cbacaf897a6dab641dc1899cf0b06b4b6d8ce35f086._rids"
+       ],
+       "outNames": [
+        "Barcode",
+        "Row",
+        "Sample name",
+        "Supergroup",
+        "Test Condition",
+        "Replicate",
+        "rowId"
+       ]
+      },
+      "inNames": [
+       "Barcode",
+       "Row",
+       "Sample name",
+       "Supergroup",
+       "Test Condition",
+       "Replicate",
+       "rowId"
+      ],
+      "outNames": [
+       "js0.Barcode",
+       "js0.Row",
+       "js0.Sample name",
+       "js0.Supergroup",
+       "js0.Test Condition",
+       "js0.Replicate",
+       "js0.rowId"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "UnionRelation",
+    "id": "b786f2da-f088-405a-b398-87b9b02a55bb",
+    "relations": [
+     {
+      "kind": "RenameRelation",
+      "id": "63915cc2-0800-4774-bc72-2ec848d11218",
+      "relation": {
+       "kind": "SimpleRelation",
+       "id": "5f139454bcce4c41e49f481499e3dc3f62f02a7454b5155d8d8374838056035d",
+       "index": 0
+      },
+      "inNames": [
+       "ds0.Instrument Unit",
+       "ds0.RunId",
+       "ds0.Barcode",
+       "ds0.Row",
+       "ds2..spotCol",
+       "ds2..spotRow",
+       "ds0.Exposure Time",
+       "ds0.Cycle",
+       "ds1.ID",
+       "js0.UniprotAccession",
+       "ds3.Median_SigmBg",
+       "ds3.Signal_Saturation",
+       "5f139454bcce4c41e49f481499e3dc3f62f02a7454b5155d8d8374838056035d._rids"
+      ],
+      "outNames": [
+       "ds0.Instrument Unit",
+       "ds0.RunId",
+       "ds0.Barcode",
+       "ds0.Row",
+       "ds2..spotCol",
+       "ds2..spotRow",
+       "ds0.Exposure Time",
+       "ds0.Cycle",
+       "ds1.ID",
+       "js0.UniprotAccession",
+       "ds3.Median_SigmBg",
+       "ds3.Signal_Saturation",
+       "rowId"
+      ]
+     },
+     {
+      "kind": "RenameRelation",
+      "id": "180f4c14-8481-4137-9a72-bf0e6388df08",
+      "relation": {
+       "kind": "SimpleRelation",
+       "id": "310efe51b2dea82b3972c348b9475ce8df66d91a1b2ec374500b234c4a7bde0a",
+       "index": 1
+      },
+      "inNames": [
+       "ds0.Instrument Unit",
+       "ds0.RunId",
+       "ds0.Barcode",
+       "ds0.Row",
+       "ds1.spotRow",
+       "ds1.spotCol",
+       "ds0.Exposure Time",
+       "ds0.Cycle",
+       "ds1.ID",
+       "js0.Sequence",
+       "js0.SeqMatch",
+       "js0.UniprotID",
+       "js0.UniprotName",
+       "js0.SeqSimilarity",
+       "ds3.Median_SigmBg",
+       "ds3.Signal_Saturation",
+       "310efe51b2dea82b3972c348b9475ce8df66d91a1b2ec374500b234c4a7bde0a._rids"
+      ],
+      "outNames": [
+       "ds0.Instrument Unit",
+       "ds0.RunId",
+       "ds0.Barcode",
+       "ds0.Row",
+       "ds1.spotRow",
+       "ds1.spotCol",
+       "ds0.Exposure Time",
+       "ds0.Cycle",
+       "ds1.ID",
+       "js0.Sequence",
+       "js0.SeqMatch",
+       "js0.UniprotID",
+       "js0.UniprotName",
+       "js0.SeqSimilarity",
+       "ds3.Median_SigmBg",
+       "ds3.Signal_Saturation",
+       "rowId"
+      ]
+     }
+    ]
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "js0.Barcode",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "ds0.Cycle",
+    "type": "double"
+   },
+   {
+    "kind": "Factor",
+    "name": "js0.Row",
+    "type": "double"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "ds1.ID",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "ds3.Median_SigmBg",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "ds0.Exposure Time",
+     "type": "double"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "and",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "less",
+       "stringValue": "0.05",
+       "factor": {
+        "kind": "Factor",
+        "name": "ds3.Signal_Saturation",
+        "type": "double"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "Signal saturation"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ETS.ds0",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "ETS",
+    "version": "0.3.0",
+    "operatorId": "5",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/pamgene/ETS_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
