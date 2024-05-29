@@ -1,0 +1,760 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "96bd87be74800b98f3194ae357ef35f72431dce0bf538147c0f67e9e1dce4eb9",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "c60f3890-ffe7-1ff2-908d-fb7e17ce7d8a",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "96bd87be74800b98f3194ae357ef35f72431dce0bf538147c0f67e9e1dce4eb9"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 1068,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "581d1eb0-ccde-4435-8326-344cd9945657",
+   "name": "VSN-T3T2.identity",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "c94bea89-2c69-4dd1-b089-32318525a6f5",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "5afb949b-85e2-49cb-a2fa-73db34487ebb",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/96/bd/96bd87be74800b98f3194ae357ef35f72431dce0bf538147c0f67e9e1dce4eb9",
+ "relation": {
+  "kind": "Relation",
+  "id": "8992200e-ba34-41a1-afee-316c8f2be536"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "CompositeRelation",
+   "id": "682dc28c-7c1d-4b85-b9d3-4b955e2b2abf",
+   "joinOperators": [
+    {
+     "kind": "JoinOperator",
+     "joinType": "leftOuter",
+     "leftPair": {
+      "kind": "ColumnPair",
+      "lColumns": [
+       "js0.Test Condition",
+       "ds0.Barcode",
+       "ds0.Row",
+       "VSN-QC..ID"
+      ],
+      "rColumns": [
+       "js0.Test Condition",
+       "ds0.Barcode",
+       "ds0.Row",
+       "VSN-QC..ID"
+      ]
+     },
+     "rightRelation": {
+      "kind": "RenameRelation",
+      "id": "f7c895a0-be56-4a63-b6e8-70d81efc0098",
+      "relation": {
+       "kind": "CompositeRelation",
+       "id": "526da5d6-8907-4ae5-ac9d-108580f5c9a0",
+       "joinOperators": [
+        {
+         "kind": "JoinOperator",
+         "joinType": "leftOuter",
+         "leftPair": {
+          "kind": "ColumnPair",
+          "lColumns": [
+           ".ri"
+          ],
+          "rColumns": [
+           "4bce365ad05026c6d07b6769bd0f02994f2fbe54ef9c37b963252a02d4a49411._rids"
+          ]
+         },
+         "rightRelation": {
+          "kind": "SimpleRelation",
+          "id": "4bce365ad05026c6d07b6769bd0f02994f2fbe54ef9c37b963252a02d4a49411",
+          "index": 11
+         }
+        }
+       ],
+       "mainRelation": {
+        "kind": "CompositeRelation",
+        "id": "3aab56ec-98d3-4983-b26e-e73666923586",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ci"
+           ],
+           "rColumns": [
+            "b9c9740a970b86e86d543612a91cee5298bace3c34fa4be93756d4a3ab9a4c18._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "b9c9740a970b86e86d543612a91cee5298bace3c34fa4be93756d4a3ab9a4c18",
+           "index": 10
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "SimpleRelation",
+         "id": "e467d8f9c3119a67e8bc7c14445bdd9633780c0ae6640744f825f4f31322b00c",
+         "index": 9
+        }
+       }
+      },
+      "inNames": [
+       ".ri",
+       ".ci",
+       "VSN-FitApply.CmbCor",
+       "e467d8f9c3119a67e8bc7c14445bdd9633780c0ae6640744f825f4f31322b00c._rids",
+       "e467d8f9c3119a67e8bc7c14445bdd9633780c0ae6640744f825f4f31322b00c.tlbId",
+       "js0.Test Condition",
+       "ds0.Barcode",
+       "ds0.Row",
+       "b9c9740a970b86e86d543612a91cee5298bace3c34fa4be93756d4a3ab9a4c18._rids",
+       "b9c9740a970b86e86d543612a91cee5298bace3c34fa4be93756d4a3ab9a4c18.tlbId",
+       "VSN-QC..ID",
+       "4bce365ad05026c6d07b6769bd0f02994f2fbe54ef9c37b963252a02d4a49411._rids",
+       "4bce365ad05026c6d07b6769bd0f02994f2fbe54ef9c37b963252a02d4a49411.tlbId",
+       "js0.Test Condition",
+       "ds0.Barcode",
+       "ds0.Row",
+       "VSN-QC..ID"
+      ],
+      "outNames": [
+       ".ri",
+       ".ci",
+       "VSN-FitApply.CmbCor",
+       "e467d8f9c3119a67e8bc7c14445bdd9633780c0ae6640744f825f4f31322b00c._rids",
+       "e467d8f9c3119a67e8bc7c14445bdd9633780c0ae6640744f825f4f31322b00c.tlbId",
+       "js0.Test Condition",
+       "ds0.Barcode",
+       "ds0.Row",
+       "b9c9740a970b86e86d543612a91cee5298bace3c34fa4be93756d4a3ab9a4c18._rids",
+       "b9c9740a970b86e86d543612a91cee5298bace3c34fa4be93756d4a3ab9a4c18.tlbId",
+       "VSN-QC..ID",
+       "4bce365ad05026c6d07b6769bd0f02994f2fbe54ef9c37b963252a02d4a49411._rids",
+       "4bce365ad05026c6d07b6769bd0f02994f2fbe54ef9c37b963252a02d4a49411.tlbId",
+       "VSN-FitApply..Test Condition",
+       "VSN-FitApply..Barcode",
+       "VSN-FitApply..Row",
+       "VSN-FitApply..ID"
+      ]
+     }
+    }
+   ],
+   "mainRelation": {
+    "kind": "CompositeRelation",
+    "id": "d76b997a-c0ec-4dac-93be-f8bf61ad84a3",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        "js0.Test Condition",
+        "ds0.Barcode",
+        "ds0.Row",
+        "VSN..ID"
+       ],
+       "rColumns": [
+        "js0.Test Condition",
+        "ds0.Barcode",
+        "ds0.Row",
+        "VSN..ID"
+       ]
+      },
+      "rightRelation": {
+       "kind": "RenameRelation",
+       "id": "13e6904a-5fc5-4868-827f-0783f7283090",
+       "relation": {
+        "kind": "CompositeRelation",
+        "id": "ff312cba-b57a-40e1-bf48-c644b2b3be7c",
+        "joinOperators": [
+         {
+          "kind": "JoinOperator",
+          "joinType": "leftOuter",
+          "leftPair": {
+           "kind": "ColumnPair",
+           "lColumns": [
+            ".ri"
+           ],
+           "rColumns": [
+            "36c2539d3522ac5757bdb0984037efa1bf82c75840f8fd06f593e4b4ea806e01._rids"
+           ]
+          },
+          "rightRelation": {
+           "kind": "SimpleRelation",
+           "id": "36c2539d3522ac5757bdb0984037efa1bf82c75840f8fd06f593e4b4ea806e01",
+           "index": 8
+          }
+         }
+        ],
+        "mainRelation": {
+         "kind": "CompositeRelation",
+         "id": "957e7b6f-b19d-4ee1-9b7b-ab231ed7fe4d",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ci"
+            ],
+            "rColumns": [
+             "3cb6f85aba2e4f66fd06a9eae3ac6f632751a881b5637957403d66193c6c1479._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "3cb6f85aba2e4f66fd06a9eae3ac6f632751a881b5637957403d66193c6c1479",
+            "index": 7
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "SimpleRelation",
+          "id": "e01b80a5ad49ab7c0f4a0ac970c69b3b6c7576d1f1369722745ab770dae67162",
+          "index": 6
+         }
+        }
+       },
+       "inNames": [
+        "VSN-QC.identity",
+        ".ci",
+        ".ri",
+        "e01b80a5ad49ab7c0f4a0ac970c69b3b6c7576d1f1369722745ab770dae67162._rids",
+        "e01b80a5ad49ab7c0f4a0ac970c69b3b6c7576d1f1369722745ab770dae67162.tlbId",
+        "js0.Test Condition",
+        "ds0.Barcode",
+        "ds0.Row",
+        "3cb6f85aba2e4f66fd06a9eae3ac6f632751a881b5637957403d66193c6c1479._rids",
+        "3cb6f85aba2e4f66fd06a9eae3ac6f632751a881b5637957403d66193c6c1479.tlbId",
+        "VSN..ID",
+        "36c2539d3522ac5757bdb0984037efa1bf82c75840f8fd06f593e4b4ea806e01._rids",
+        "36c2539d3522ac5757bdb0984037efa1bf82c75840f8fd06f593e4b4ea806e01.tlbId",
+        "js0.Test Condition",
+        "ds0.Barcode",
+        "ds0.Row",
+        "VSN..ID"
+       ],
+       "outNames": [
+        "VSN-QC.identity",
+        ".ci",
+        ".ri",
+        "e01b80a5ad49ab7c0f4a0ac970c69b3b6c7576d1f1369722745ab770dae67162._rids",
+        "e01b80a5ad49ab7c0f4a0ac970c69b3b6c7576d1f1369722745ab770dae67162.tlbId",
+        "js0.Test Condition",
+        "ds0.Barcode",
+        "ds0.Row",
+        "3cb6f85aba2e4f66fd06a9eae3ac6f632751a881b5637957403d66193c6c1479._rids",
+        "3cb6f85aba2e4f66fd06a9eae3ac6f632751a881b5637957403d66193c6c1479.tlbId",
+        "VSN..ID",
+        "36c2539d3522ac5757bdb0984037efa1bf82c75840f8fd06f593e4b4ea806e01._rids",
+        "36c2539d3522ac5757bdb0984037efa1bf82c75840f8fd06f593e4b4ea806e01.tlbId",
+        "VSN-QC..Test Condition",
+        "VSN-QC..Barcode",
+        "VSN-QC..Row",
+        "VSN-QC..ID"
+       ]
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "db3432e3-bc96-4ddf-896b-52d89b8f6dca",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         "js0.Test Condition",
+         "ds0.Barcode",
+         "ds0.Row",
+         "ds1.ID"
+        ],
+        "rColumns": [
+         "js0.Test Condition",
+         "ds0.Barcode",
+         "ds0.Row",
+         "ds1.ID"
+        ]
+       },
+       "rightRelation": {
+        "kind": "RenameRelation",
+        "id": "724ca4c9-20d4-4f58-ae90-cfe603dd733f",
+        "relation": {
+         "kind": "CompositeRelation",
+         "id": "af4abf6c-55c4-4431-a327-8facb9dee6c1",
+         "joinOperators": [
+          {
+           "kind": "JoinOperator",
+           "joinType": "leftOuter",
+           "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+             ".ri"
+            ],
+            "rColumns": [
+             "b0b02d3207a7bb03db9c2a831e17462978bd217f63e21214d948c5f216a949ee._rids"
+            ]
+           },
+           "rightRelation": {
+            "kind": "SimpleRelation",
+            "id": "b0b02d3207a7bb03db9c2a831e17462978bd217f63e21214d948c5f216a949ee",
+            "index": 5
+           }
+          }
+         ],
+         "mainRelation": {
+          "kind": "CompositeRelation",
+          "id": "ef2ade44-eefa-4c6b-abba-d35a8af756f4",
+          "joinOperators": [
+           {
+            "kind": "JoinOperator",
+            "joinType": "leftOuter",
+            "leftPair": {
+             "kind": "ColumnPair",
+             "lColumns": [
+              ".ci"
+             ],
+             "rColumns": [
+              "346d22e12e60d0958bc0ea1f0f868a95550454222fb830abd388a7240235a6fa._rids"
+             ]
+            },
+            "rightRelation": {
+             "kind": "SimpleRelation",
+             "id": "346d22e12e60d0958bc0ea1f0f868a95550454222fb830abd388a7240235a6fa",
+             "index": 4
+            }
+           }
+          ],
+          "mainRelation": {
+           "kind": "SimpleRelation",
+           "id": "a722c79a904bfdf2b0bc068caf3dfc5bb0717bd7753f1abc4e492cdaa2931688",
+           "index": 3
+          }
+         }
+        },
+        "inNames": [
+         "VSN.norm",
+         ".ci",
+         ".ri",
+         "a722c79a904bfdf2b0bc068caf3dfc5bb0717bd7753f1abc4e492cdaa2931688._rids",
+         "a722c79a904bfdf2b0bc068caf3dfc5bb0717bd7753f1abc4e492cdaa2931688.tlbId",
+         "js0.Test Condition",
+         "ds0.Barcode",
+         "ds0.Row",
+         "346d22e12e60d0958bc0ea1f0f868a95550454222fb830abd388a7240235a6fa._rids",
+         "346d22e12e60d0958bc0ea1f0f868a95550454222fb830abd388a7240235a6fa.tlbId",
+         "ds1.ID",
+         "b0b02d3207a7bb03db9c2a831e17462978bd217f63e21214d948c5f216a949ee._rids",
+         "b0b02d3207a7bb03db9c2a831e17462978bd217f63e21214d948c5f216a949ee.tlbId",
+         "js0.Test Condition",
+         "ds0.Barcode",
+         "ds0.Row",
+         "ds1.ID"
+        ],
+        "outNames": [
+         "VSN.norm",
+         ".ci",
+         ".ri",
+         "a722c79a904bfdf2b0bc068caf3dfc5bb0717bd7753f1abc4e492cdaa2931688._rids",
+         "a722c79a904bfdf2b0bc068caf3dfc5bb0717bd7753f1abc4e492cdaa2931688.tlbId",
+         "js0.Test Condition",
+         "ds0.Barcode",
+         "ds0.Row",
+         "346d22e12e60d0958bc0ea1f0f868a95550454222fb830abd388a7240235a6fa._rids",
+         "346d22e12e60d0958bc0ea1f0f868a95550454222fb830abd388a7240235a6fa.tlbId",
+         "ds1.ID",
+         "b0b02d3207a7bb03db9c2a831e17462978bd217f63e21214d948c5f216a949ee._rids",
+         "b0b02d3207a7bb03db9c2a831e17462978bd217f63e21214d948c5f216a949ee.tlbId",
+         "VSN..Test Condition",
+         "VSN..Barcode",
+         "VSN..Row",
+         "VSN..ID"
+        ]
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "CompositeRelation",
+      "id": "3667411b-d6df-4e19-8d9d-68a47afbe000",
+      "joinOperators": [
+       {
+        "kind": "JoinOperator",
+        "joinType": "r.o.f",
+        "leftPair": {
+         "kind": "ColumnPair",
+         "lColumns": [
+          "ds0.Barcode",
+          "ds0.Row"
+         ],
+         "rColumns": [
+          "js0.Barcode",
+          "js0.Row"
+         ]
+        },
+        "rightRelation": {
+         "kind": "RenameRelation",
+         "id": "b4b7cc5a-3c3f-4b76-a4e1-a3de29125ebc",
+         "relation": {
+          "kind": "RenameRelation",
+          "id": "c28fc96a-88a9-4995-bea3-9b60f059cd0d",
+          "relation": {
+           "kind": "SimpleRelation",
+           "id": "235913c749bd6f527dfc9cbacaf897a6dab641dc1899cf0b06b4b6d8ce35f086",
+           "index": 2
+          },
+          "inNames": [
+           "Barcode",
+           "Row",
+           "Sample name",
+           "Supergroup",
+           "Test Condition",
+           "Replicate",
+           "235913c749bd6f527dfc9cbacaf897a6dab641dc1899cf0b06b4b6d8ce35f086._rids"
+          ],
+          "outNames": [
+           "Barcode",
+           "Row",
+           "Sample name",
+           "Supergroup",
+           "Test Condition",
+           "Replicate",
+           "rowId"
+          ]
+         },
+         "inNames": [
+          "Barcode",
+          "Row",
+          "Sample name",
+          "Supergroup",
+          "Test Condition",
+          "Replicate",
+          "rowId"
+         ],
+         "outNames": [
+          "js0.Barcode",
+          "js0.Row",
+          "js0.Sample name",
+          "js0.Supergroup",
+          "js0.Test Condition",
+          "js0.Replicate",
+          "js0.rowId"
+         ]
+        }
+       }
+      ],
+      "mainRelation": {
+       "kind": "UnionRelation",
+       "id": "33b453bd-9b2f-4670-80c3-704da8245769",
+       "relations": [
+        {
+         "kind": "RenameRelation",
+         "id": "962dfc35-2207-43cc-84dd-ea7b1674b4bc",
+         "relation": {
+          "kind": "SimpleRelation",
+          "id": "5f139454bcce4c41e49f481499e3dc3f62f02a7454b5155d8d8374838056035d",
+          "index": 0
+         },
+         "inNames": [
+          "ds0.Instrument Unit",
+          "ds0.RunId",
+          "ds0.Barcode",
+          "ds0.Row",
+          "ds2..spotCol",
+          "ds2..spotRow",
+          "ds0.Exposure Time",
+          "ds0.Cycle",
+          "ds1.ID",
+          "js0.UniprotAccession",
+          "ds3.Median_SigmBg",
+          "ds3.Signal_Saturation",
+          "5f139454bcce4c41e49f481499e3dc3f62f02a7454b5155d8d8374838056035d._rids"
+         ],
+         "outNames": [
+          "ds0.Instrument Unit",
+          "ds0.RunId",
+          "ds0.Barcode",
+          "ds0.Row",
+          "ds2..spotCol",
+          "ds2..spotRow",
+          "ds0.Exposure Time",
+          "ds0.Cycle",
+          "ds1.ID",
+          "js0.UniprotAccession",
+          "ds3.Median_SigmBg",
+          "ds3.Signal_Saturation",
+          "rowId"
+         ]
+        },
+        {
+         "kind": "RenameRelation",
+         "id": "63f14208-936a-4fc9-be3c-e4fea4381365",
+         "relation": {
+          "kind": "SimpleRelation",
+          "id": "310efe51b2dea82b3972c348b9475ce8df66d91a1b2ec374500b234c4a7bde0a",
+          "index": 1
+         },
+         "inNames": [
+          "ds0.Instrument Unit",
+          "ds0.RunId",
+          "ds0.Barcode",
+          "ds0.Row",
+          "ds1.spotRow",
+          "ds1.spotCol",
+          "ds0.Exposure Time",
+          "ds0.Cycle",
+          "ds1.ID",
+          "js0.Sequence",
+          "js0.SeqMatch",
+          "js0.UniprotID",
+          "js0.UniprotName",
+          "js0.SeqSimilarity",
+          "ds3.Median_SigmBg",
+          "ds3.Signal_Saturation",
+          "310efe51b2dea82b3972c348b9475ce8df66d91a1b2ec374500b234c4a7bde0a._rids"
+         ],
+         "outNames": [
+          "ds0.Instrument Unit",
+          "ds0.RunId",
+          "ds0.Barcode",
+          "ds0.Row",
+          "ds1.spotRow",
+          "ds1.spotCol",
+          "ds0.Exposure Time",
+          "ds0.Cycle",
+          "ds1.ID",
+          "js0.Sequence",
+          "js0.SeqMatch",
+          "js0.UniprotID",
+          "js0.UniprotName",
+          "js0.SeqSimilarity",
+          "ds3.Median_SigmBg",
+          "ds3.Signal_Saturation",
+          "rowId"
+         ]
+        }
+       ]
+      }
+     }
+    }
+   }
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "js0.Test Condition",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "js0.Barcode",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "js0.Row",
+    "type": "double"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "VSN-QC..ID",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "VSN-FitApply.CmbCor",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "or",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "T3",
+       "factor": {
+        "kind": "Factor",
+        "name": "js0.Test Condition",
+        "type": "string"
+       }
+      },
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "T2",
+       "factor": {
+        "kind": "Factor",
+        "name": "js0.Test Condition",
+        "type": "string"
+       }
+      }
+     ],
+     "meta": [],
+     "name": "Test Condition = T3, T2"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "VSN-T3T2",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Identity",
+    "version": "0.1.3",
+    "operatorId": "10",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/identity_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
